@@ -26,6 +26,8 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+
+
         titleTv = (TextView) findViewById(R.id.tvDetailsTitle);
         contentTv = (TextView) findViewById(R.id.tvDetailsContent);
         ivImage = (ImageView) findViewById(R.id.ivDetailsImage) ;
